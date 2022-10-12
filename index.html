@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <form class="form-container">
+            <div class="form-controller" id="fc">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter name">
+            </div>
+            <div class="form-controller">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-controller">
+                <label for="age">Age</label>
+                <input type="text" id="age" placeholder="Enter age">
+            </div>
+            <div class="form-controller">
+                <label for="age">Which options best describes you?</label>
+                <select>
+                    <option value="Student">Student</option>
+                    <option value="Student">Student</option>
+                    <option value="Student">Student</option>
+                    <option value="Student">Student</option>
+                </select>
+            </div>
+            <div class="form-controller">
+                <label for="coaching">Would you recommend my Coaching to your friends?</label>
+                    <fieldset id="coaching">
+                    <input type="radio" name="coaching" value="Yes">Yes <br>
+                    <input type="radio" name="coaching" value="No">No <br>
+                    <input type="radio" name="coaching" value="Maybe">Maybe
+                   </fieldset>
+            </div>
+            <div class="form-controller">
+                <label for="language">Languages and frameworks known.</label>
+                <fieldset id="language">
+                <input type="checkbox" name="language" value="c">C <br>
+                <input type="checkbox" name="language" value="python">Python <br>
+                <input type="checkbox" name="language" value="java">Java <br>
+                <input type="checkbox" name="language" value="JavaScript">JavaScript <br>
+                <input type="checkbox" name="language" value="JavaScript">React
+               </fieldset>
+            </div>
+            <div class="form-controller">
+                <label for="suggestion">Any suggestion?</label>
+                <textarea rows="6" columns="5"></textarea>
+            </div>
+            <div class="form-controller">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
